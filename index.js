@@ -40,3 +40,6 @@ function calcular() {
         document.querySelector('#box3').innerHTML = '<p>Olá ' + nome + '</p>' + '<h1>Seu IMC é: </h1>' + imc.toFixed(2);
     }
 }
+function reset(){
+    location.reload()
+}
